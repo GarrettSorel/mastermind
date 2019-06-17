@@ -48,4 +48,20 @@ class GameBoard < Game
   def update
   end
 
+  def reset
+    @@cells = Hash.new
+    @@pegs = {
+      "black" => "BK",
+      "green" => "GR",
+      "red" => "RD",
+      "blue" => "BL",
+      "yellow" => "YW"
+    }
+    update
+  end
+
+  def exit
+    abort
+  end
+
 end

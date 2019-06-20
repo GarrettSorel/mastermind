@@ -18,6 +18,8 @@ class Game
     puts "****Welcome to Mastermind****"
     puts "****Do You Have What It****"
     puts "****Takes To Crack the Code?****"
+    puts "****Select Four Colors Each Turn****"
+    puts "****You have 12 Turns to Break the Code!****"
     @board.update
   end
 
